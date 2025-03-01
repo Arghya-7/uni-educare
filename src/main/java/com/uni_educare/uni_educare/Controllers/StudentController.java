@@ -24,4 +24,5 @@ public class StudentController {
     public ResponseEntity<StudentVO> save(@RequestBody StudentVO studentVO){
         return this.studentService.save(studentVO);
     }
+
 }
