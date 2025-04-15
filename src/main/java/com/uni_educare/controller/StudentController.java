@@ -13,20 +13,22 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static com.uni_educare.constant.UniEducareConstant.*;
+
 @RestController
-@RequestMapping("/student")
+@RequestMapping(STUDENT_CONTROLLER)
 public class StudentController {
     private static final Logger LOGGER = LoggerFactory.getLogger(DashboardController.class);
     @Autowired
     private StudentService studentService;
 
-    @GetMapping("/findStudents")
+    @GetMapping(FINDALL)
     public ResponseEntity<List<Student>> findAllStudents() throws Exception {
         LOGGER.info("API called findAllStudents");
         return this.studentService.findAllStudents();
     }
 
-    @PostMapping("/register")
+    @PostMapping(REGISTER)
     public ResponseEntity<StudentVO> save(@RequestBody StudentVO studentVO) throws Exception {
         LOGGER.info("API called save, payload : {}", studentVO);
         return this.studentService.save(studentVO);
