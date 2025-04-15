@@ -1,10 +1,10 @@
-package com.uni_educare.uni_educare.Entities;
+package com.uni_educare.module;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.http.HttpStatusCode;
 
 @Entity
 @Data

@@ -1,6 +1,5 @@
-package com.uni_educare.uni_educare.Configarations;
+package com.uni_educare.configaration;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,8 @@
-package com.uni_educare.uni_educare.Service;
+package com.uni_educare.service;
 
-import com.uni_educare.uni_educare.Dto.StudentVO;
-import com.uni_educare.uni_educare.Entities.Student;
+import com.uni_educare.module.Student;
+import com.uni_educare.module.StudentVO;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
