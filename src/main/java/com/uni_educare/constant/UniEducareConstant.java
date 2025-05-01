@@ -7,4 +7,6 @@ public class UniEducareConstant {
     final public static String STUDENT_CONTROLLER = "/student";
     final public static String FINDALL = "/findAll";
     final public static String REGISTER = "/register";
+
+    final public static String PRICING_CONTROLLER = "/pricing";
 }

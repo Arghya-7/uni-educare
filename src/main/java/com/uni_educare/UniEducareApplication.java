@@ -6,12 +6,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 @SpringBootApplication
+@EnableCaching
 public class UniEducareApplication {
 	private static final Logger LOGGER = LoggerFactory.getLogger(UniEducareApplication.class);
 
